@@ -1,0 +1,25 @@
+# Środowisko wirtualne (bardzo ważne, nie chcemy wysyłać tysięcy plików bibliotek)
+.venv/
+venv/
+ENV/
+env/
+
+# Pliki środowiska PyCharm
+.idea/
+
+# Pliki tymczasowe Pythona
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Pliki systemowe
+.DS_Store
+Thumbs.db
+
+# Dane (opcjonalnie, jeśli pobierasz duże pliki csv ręcznie)
+*.csv
+*.xlsx
+*.pdf
+
+# Pliki logów i debugowania
+*.log
